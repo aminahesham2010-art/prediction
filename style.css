@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: radial-gradient(rgba(43, 23, 90, 0.842), rgb(21, 65, 94),rgb(102, 31, 87));
+    background-size: 100% 400%;
+}
+
+#title{
+    width: 100vw;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+#container{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.row{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans{
+    width: 100px;
+opacity: 0;
+
+}
+
+#crystal{
+    opacity: 0.5;
+    transition: 1s;
+    
+}
+
+#crystal:hover{
+    opacity: 1;
+}
+
