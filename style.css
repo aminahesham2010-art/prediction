@@ -1,3 +1,9 @@
+@font-face {
+    font-family: font;
+    src: url(vigneta.woff);
+}
+
+
 *{
     margin: 0;
 }
@@ -5,6 +11,7 @@
 body{
     background: radial-gradient(rgba(43, 23, 90, 0.842), rgb(21, 65, 94),rgb(102, 31, 87));
     background-size: 100% 400%;
+    font-family: font, sans-serif;
 }
 
 #title{
@@ -48,3 +55,10 @@ opacity: 0;
     opacity: 1;
 }
 
+@keyframes selectans {
+    to{
+        transform: scale(1.5);
+        text-shadow: 0 0 15px rgb(216, 16, 216);
+
+    }
+}
